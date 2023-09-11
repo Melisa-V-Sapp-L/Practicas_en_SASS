@@ -1,0 +1,39 @@
+// Anidación de navegación - Nesting Navigation
+       
+header
+    background: $Blue-Color
+    margin: $Border1
+    padding: $Border1
+    nav
+        background: $Navy-Color
+        padding: $Padding
+        a
+            text-decoration: none
+            margin: $Margin
+            padding: $Border1
+            background: $Navy-Color
+            @include border-radius(50px)
+            color: $Pale-Color
+            font-family: $NavFont
+            &:hover
+                background: $Orange-Color
+                color: $Navy-Color
+                text-decoration: none
+
+// Anidación de div - Nesting box
+
+div 
+    background: $white-Color
+    border-radius: $Border2
+    margin: $Margin
+    padding: $Padding
+    width: $Width900
+    color: $Navy-Color
+    font-family: $DivFont
+    font-size: $DivSizeFont
+    box-shadow: 5px 5px 2px $Blue-Color
+    &:hover
+        background: $Orange-Color
+    a
+        text-decoration: none
+                        
